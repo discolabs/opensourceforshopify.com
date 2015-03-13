@@ -112,6 +112,10 @@
   }
 }
 
+.repo-category, .repo-stats-divider {
+  margin-left: $margin/4;
+}
+
 .repo-lang {
   margin-left: $margin/4;
   text-transform: uppercase;
