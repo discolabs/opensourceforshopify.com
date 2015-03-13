@@ -31,7 +31,7 @@ add your repository to `javascripts/custom-repos.js`, and raise a pull request.
 
 The edits you'll need to make are:
 
-#### 1. Add your repository to the `customRepos` list
+#### 1. Add your repository to the custom repository list
 Add your GitHub repository in `<organisation/user>/<repository>` format.
 
 ```js
@@ -59,9 +59,9 @@ var customRepoLanguage = {
 ```
 
 #### 3. Specify a category if required
-In addition to filtering by language, repositories can be filtered by category
-- at the moment, these categorisations are limited to "Themes" (the default)
-and "Apps". If your repository is theme-related, you don't have to do anything.
+In addition to filtering by language, repositories can be filtered by category.
+At the moment, these categorisations are limited to "Themes" (the default) and
+"Apps". If your repository is theme-related, you don't have to do anything.
 
 If you'd like to list your repository under "Apps", simply add to
 `customRepoCategory`.

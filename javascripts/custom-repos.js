@@ -2,7 +2,6 @@
 // These repositories are loaded this way as a convenience, not because Disco has any special priority in this list.
 // Opting these repositories in here reduces the number of Javascript calls we need to make to load external repos.
 var optInRepos = [
-  'cartjs',
   'django-shopify-auth',
   'grunt-shopify-theme-settings',
   'shopify-theme-scaffold',
@@ -12,7 +11,7 @@ var optInRepos = [
 // Add custom repos by full_name. Take the org/user and repo name
 // - e.g. luciddesign/bootstrapify from https://github.com/luciddesign/bootstrapify
 var customRepos = [
-
+  'discolabs/cartjs'
 ];
 
 // Custom repo language, different than that defined by GitHub
