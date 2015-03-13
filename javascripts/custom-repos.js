@@ -12,7 +12,7 @@ var optInRepos = [
 // Add custom repos by full_name. Take the org/user and repo name
 // - e.g. luciddesign/bootstrapify from https://github.com/luciddesign/bootstrapify
 var customRepos = [
-
+  'joshrps/laravel-shopify-API-wrapper'
 ];
 
 // Custom repo language, different than that defined by GitHub
@@ -26,7 +26,8 @@ var customRepoLanguage = {
 // "Themes" is the default so currently only repositories that should be classified under "Apps" should be in here.
 var customRepoCategory = {
   'django-shopify-auth': 'Apps',
-  'shopify-dev-frame': 'Apps'
+  'shopify-dev-frame': 'Apps',
+  'laravel-shopify-API-wrapper': 'Apps'
 };
 
 // Custom repo avatars. Dimensions should be 40x40
