@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Open Source Software Projects - Shopify Ecommerce
-description: As a team that greatly benefits from open-source software, these are the projects that we have contributed back to the community.
+title: Open Source for Shopify
+description: A collection of open source projects developed by third parties for use in the building of themes and applications for Shopify.
 ---
 
 <div class="hero">
@@ -15,16 +15,14 @@ description: As a team that greatly benefits from open-source software, these ar
         <li>
           <span id="countRepos" class="git-stat is-loading"></span> Repos
         </li>
-        <li>
-          <span id="countMembers" class="git-stat is-loading"></span> Members
-        </li>
       </ul>
     </div>
   </header>
   <div class="pagewidth">
     <div class="hero-inner">
-      <h1 class="hero-text">As a team that greatly benefits from open-source software, these are the projects that we have contributed back to the community.</h1>
-      <p>All repos released under the <a href="https://github.com/Shopify/shopify.github.com/blob/master/LICENSE.md">MIT license</a></p>
+      <h1 class="hero-text">A collection Shopify-related open source projects developed by third parties.</h1>
+      <p>This collection of third-party projects is not officially supported or endorsed by Shopify.</p>
+      <p>For the list of official Shopify open source projects, <a href="http://shopify.github.io/">go here</a>.</p>
     </div>
   </div>
 </div>
@@ -37,12 +35,14 @@ description: As a team that greatly benefits from open-source software, these ar
       </div>
       <div class="filter-bar--right">
         <button class="btn is-active" data-filter="*">All</button>
-        <button class="btn" data-filter=".go">Go</button>
-        <button class="btn" data-filter=".javascript">JavaScript</button>
+        <span class="filter-bar--divider">/</span>
+        <button class="btn" data-filter=".themes">Themes</button>
+        <button class="btn" data-filter=".apps">Apps</button>
+        <span class="filter-bar--divider">/</span>
         <button class="btn" data-filter=".liquid">Liquid</button>
-        <button class="btn" data-filter=".objective-c">Objective-C</button>
+        <button class="btn" data-filter=".javascript">JavaScript</button>
+        <button class="btn" data-filter=".python">Python</button>
         <button class="btn" data-filter=".ruby">Ruby</button>
-        <button class="btn" data-filter=":not(.go, .css, .javascript, .objective-c, .ruby, .liquid)">Other</button>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ description: As a team that greatly benefits from open-source software, these ar
 <script id="repoTemplate" type="text/template">
 {% raw %}
   {{#items}}
-  <div class="repo {{languageClass}}{{#unless description}} no-desc{{/unless}}">
+  <div class="repo {{languageClass}} {{categoryClass}}{{#unless description}} no-desc{{/unless}}">
     <header class="repo-header">
       <div class="grid">
         <div class="grid-item large--one-half">
@@ -96,6 +96,8 @@ description: As a team that greatly benefits from open-source software, these ar
             <div class="repo-stats">
               <i class="icon-star" title="Stars"></i> {{stars}}
               <i class="icon-forks" title="Forks"></i> {{forks}}
+              <span class="repo-category">{{category}}</span>
+              <span class="repo-stats-divider">/</span>
               <span class="repo-lang">{{language}}</span>
             </div>
           </div>

@@ -40,7 +40,7 @@ jQuery(function($){
         repos = repos ? repos : [];
 
         this.getCustomRepos();
-        this.addMembers();
+        //this.addMembers(); Disabled for the moment.
         this.tracking();
 
         $('a[href="#"]').on('click',function(e){e.preventDefault()});
@@ -137,6 +137,15 @@ jQuery(function($){
             repo.languageClass = (repo.language || '').toLowerCase();
           }
 
+          // Update repo category if manually defined. Otherwise default to "Themes".
+          if ( repo.name in customRepoCategory ) {
+            repo.category = customRepoCategory[repo.name];
+            repo.categoryClass = (customRepoCategory[repo.name] || '').toLowerCase();
+          } else {
+            repo.category = 'Themes';
+            repo.categoryClass = 'Themes'.toLowerCase();
+          }
+
           // Make sure homepage URLs start with http. If not, add them
           if (repo.homepage && repo.homepage.substring(0, 4) != "http") {
             repo.homepage = 'http://' + repo.homepage;
@@ -147,6 +156,8 @@ jQuery(function($){
             name: repo.name,
             language: repo.language,
             languageClass: repo.languageClass,
+            category: repo.category,
+            categoryClass: repo.categoryClass,
             description: repo.description,
             stars: repo.stargazers_count ? repo.stargazers_count : 0,
             forks: repo.forks_count ? repo.forks_count : 0,
