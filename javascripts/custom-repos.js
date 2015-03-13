@@ -12,14 +12,13 @@ var optInRepos = [
 // Add custom repos by full_name. Take the org/user and repo name
 // - e.g. luciddesign/bootstrapify from https://github.com/luciddesign/bootstrapify
 var customRepos = [
-  'luciddesign/bootstrapify'
+
 ];
 
 // Custom repo language, different than that defined by GitHub
 var customRepoLanguage = {
   'cartjs': 'JavaScript',
-  'shopify-theme-scaffold': 'Liquid',
-  'bootstrapify': 'Liquid'
+  'shopify-theme-scaffold': 'Liquid'
 };
 
 // Specify how each repository should be classified.
