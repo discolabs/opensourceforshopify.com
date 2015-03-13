@@ -80,6 +80,12 @@ jQuery(function($){
         var o = this,
             customApiCalls = 0;
 
+        // If we start with zero custom repositories, just add the ones we have.
+        if(customRepos.length == 0) {
+          o.addRepos(repos);
+          return;
+        }
+
         for (var i = customRepos.length - 1; i >= 0; i--) {
           repo = customRepos[i];
 
