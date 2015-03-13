@@ -70,7 +70,7 @@ If you'd like to list your repository under "Apps", simply add to
 var customRepoCategory = {
   'django-shopify-auth': 'Apps',            // Existing repository
   'shopify-dev-frame': 'Apps',              // Existing repository
-  'your-username/your-repository: 'Apps'    // Your new repository
+  'your-username/your-repository': 'Apps'   // Your new repository
 };
 ```
 
