@@ -12,22 +12,27 @@ var optInRepos = [
 // Add custom repos by full_name. Take the org/user and repo name
 // - e.g. luciddesign/bootstrapify from https://github.com/luciddesign/bootstrapify
 var customRepos = [
-  'joshrps/laravel-shopify-API-wrapper'
+  'joshrps/laravel-shopify-API-wrapper',
+  'freakdesign/shopifyFD',
+  'freakdesign/shopify-custom-fields'
 ];
 
 // Custom repo language, different than that defined by GitHub
 var customRepoLanguage = {
   'cartjs': 'JavaScript',
-  'shopify-theme-scaffold': 'Liquid'
+  'shopify-theme-scaffold': 'Liquid',
+  'shopify-custom-fields': 'JavaScript'
 };
 
 // Specify how each repository should be classified.
-// Currently, repositories can be classified as "Themes" or "Apps".
-// "Themes" is the default so currently only repositories that should be classified under "Apps" should be in here.
+// Currently, repositories can be classified as "Themes", "Apps" or "Tools".
+// "Themes" is the default so only repositories that should be classified under "Apps" or "Tools" should be in here.
 var customRepoCategory = {
   'django-shopify-auth': 'Apps',
   'shopify-dev-frame': 'Apps',
-  'laravel-shopify-API-wrapper': 'Apps'
+  'laravel-shopify-API-wrapper': 'Apps',
+  'shopifyFD': 'Tools',
+  'shopify-custom-fields': 'Tools'
 };
 
 // Custom repo avatars. Dimensions should be 40x40
