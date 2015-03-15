@@ -6,7 +6,8 @@ var optInRepos = [
   'django-shopify-auth',
   'grunt-shopify-theme-settings',
   'shopify-theme-scaffold',
-  'shopify-dev-frame'
+  'shopify-dev-frame',
+  'opensourceforshopify.com'
 ];
 
 // Add custom repos by full_name. Take the org/user and repo name
@@ -21,7 +22,8 @@ var customRepos = [
 var customRepoLanguage = {
   'cartjs': 'JavaScript',
   'shopify-theme-scaffold': 'Liquid',
-  'shopify-custom-fields': 'JavaScript'
+  'shopify-custom-fields': 'JavaScript',
+  'opensourceforshopify.com': 'JavaScript'
 };
 
 // Specify how each repository should be classified.
@@ -32,7 +34,8 @@ var customRepoCategory = {
   'shopify-dev-frame': 'Apps',
   'laravel-shopify-API-wrapper': 'Apps',
   'shopifyFD': 'Tools',
-  'shopify-custom-fields': 'Tools'
+  'shopify-custom-fields': 'Tools',
+  'opensourceforshopify.com': 'Tools'
 };
 
 // Custom repo avatars. Dimensions should be 40x40
