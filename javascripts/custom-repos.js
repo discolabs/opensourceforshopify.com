@@ -1,4 +1,4 @@
-// Opt-in repos (case sensitive)
+// Opt-in Disco repositories.
 // These repositories are loaded this way as a convenience, not because Disco has any special priority in this list.
 // Opting these repositories in here reduces the number of Javascript calls we need to make to load external repos.
 var optInRepos = [
@@ -15,7 +15,9 @@ var optInRepos = [
 var customRepos = [
   'joshrps/laravel-shopify-API-wrapper',
   'freakdesign/shopifyFD',
-  'freakdesign/shopify-custom-fields'
+  'freakdesign/shopify-custom-fields',
+  'microapps/Nodify',
+  'microapps/Shopify-Embedded-App-Frontend-Framework'
 ];
 
 // Custom repo language, different than that defined by GitHub
@@ -23,7 +25,9 @@ var customRepoLanguage = {
   'cartjs': 'JavaScript',
   'shopify-theme-scaffold': 'Liquid',
   'shopify-custom-fields': 'JavaScript',
-  'opensourceforshopify.com': 'JavaScript'
+  'opensourceforshopify.com': 'JavaScript',
+  'Nodify': 'JavaScript',
+  'Shopify-Embedded-App-Frontend-Framework': 'CSS'
 };
 
 // Specify how each repository should be classified.
@@ -35,7 +39,8 @@ var customRepoCategory = {
   'laravel-shopify-API-wrapper': 'Apps',
   'shopifyFD': 'Tools',
   'shopify-custom-fields': 'Tools',
-  'opensourceforshopify.com': 'Tools'
+  'opensourceforshopify.com': 'Tools',
+  'Shopify-Embedded-App-Frontend-Framework': 'Apps'
 };
 
 // Custom repo avatars. Dimensions should be 40x40
