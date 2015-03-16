@@ -17,7 +17,8 @@ var customRepos = [
   'freakdesign/shopifyFD',
   'freakdesign/shopify-custom-fields',
   'microapps/Nodify',
-  'microapps/Shopify-Embedded-App-Frontend-Framework'
+  'microapps/Shopify-Embedded-App-Frontend-Framework',
+  'luciddesign/bootstrapify'
 ];
 
 // Custom repo language, different than that defined by GitHub
@@ -27,7 +28,8 @@ var customRepoLanguage = {
   'shopify-custom-fields': 'JavaScript',
   'opensourceforshopify.com': 'JavaScript',
   'Nodify': 'JavaScript',
-  'Shopify-Embedded-App-Frontend-Framework': 'CSS'
+  'Shopify-Embedded-App-Frontend-Framework': 'CSS',
+  'bootstrapify': 'Liquid'
 };
 
 // Specify how each repository should be classified.
