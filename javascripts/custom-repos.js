@@ -19,7 +19,8 @@ var customRepos = [
   'microapps/Nodify',
   'microapps/Shopify-Embedded-App-Frontend-Framework',
   'luciddesign/bootstrapify',
-  'internalfx/quickshot'
+  'internalfx/quickshot',
+  'pixelcabin/ziplines'
 ];
 
 // Custom repo language, different than that defined by GitHub
