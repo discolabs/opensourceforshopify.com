@@ -16,7 +16,7 @@ var customRepos = [
   'joshrps/laravel-shopify-API-wrapper',
   'freakdesign/shopifyFD',
   'freakdesign/shopify-custom-fields',
-  'microapps/Nodify',
+  'microapps/Nodify-Shopify',
   'microapps/Shopify-Embedded-App-Frontend-Framework',
   'luciddesign/bootstrapify',
   'internalfx/quickshot',
@@ -29,7 +29,7 @@ var customRepoLanguage = {
   'shopify-theme-scaffold': 'Liquid',
   'shopify-custom-fields': 'JavaScript',
   'opensourceforshopify.com': 'JavaScript',
-  'Nodify': 'JavaScript',
+  'Nodify-Shopify': 'JavaScript',
   'Shopify-Embedded-App-Frontend-Framework': 'CSS',
   'bootstrapify': 'Liquid',
   'quickshot': 'JavaScript'
