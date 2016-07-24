@@ -1,5 +1,8 @@
 Open Source for Shopify
 =======================
+**NOTE:** This site is no longer maintained or operational, althought it's kept
+here for posterity.
+
 This is a collection of open source projects developed by third parties for use
 in the building of themes and applications for Shopify.  
 
